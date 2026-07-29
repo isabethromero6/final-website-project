@@ -63,3 +63,24 @@ img{
     front-weight:bold;
     box-shadow: 0 4px  8px rgba (0,0,0,.2);
 }
+
+table {
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+    background: lightcyan;
+}
+
+th,td {
+    border: 2px solid #c0392b
+    padding: 12px;
+}
+
+th {
+    background-color: #c0392b;
+    color:white;
+}
+
+tr: :nth-child (even). {
+    background-color: #f2f2f2;
+}
