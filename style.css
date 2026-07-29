@@ -53,3 +53,13 @@ img{
     justify-content: center;
     gap: 20px;
 }
+
+.container div{
+    background: white;
+    border: 2px solid #c0392b;
+    border-radius: 12px;
+    padding: 20px;
+    width: 180px;
+    front-weight:bold;
+    box-shadow: 0 4px  8px rgba (0,0,0,.2);
+}
