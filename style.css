@@ -1,0 +1,55 @@
+body{
+    background-color: blanchedalmond;
+    front-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: cadetblue;
+    padding:15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: wavy;
+    front-weight: bold;
+    margin: 0 20px;
+}
+
+nav a: :hover {
+    color:white;
+    text-decoration: none;
+    front-weight: bold;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: plum;
+}
+
+h1 {
+    color:#8b0000 ;
+}
+
+p{
+    width: 70%;
+    margin:auto;
+    line-height: 1.6;
+}
+
+img{
+    width: px;
+    border-radius: 12px;
+    margin: 20px  0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
